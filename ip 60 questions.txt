@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<questions start="1" end="60" total="60">
+	<answer_options>
+		<answer_option value="1">Strongly Dislike</answer_option>
+		<answer_option value="2">Dislike</answer_option>
+		<answer_option value="3">Unsure</answer_option>
+		<answer_option value="4">Like</answer_option>
+		<answer_option value="5">Strongly Like</answer_option>
+	</answer_options>
+	<question index="1">
+		<area>Realistic</area>
+		<text>Build kitchen cabinets</text>
+	</question>
+	<question index="2">
+		<area>Realistic</area>
+		<text>Lay brick or tile</text>
+	</question>
+	<question index="3">
+		<area>Investigative</area>
+		<text>Develop a new medicine</text>
+	</question>
+	<question index="4">
+		<area>Investigative</area>
+		<text>Study ways to reduce water pollution</text>
+	</question>
+	<question index="5">
+		<area>Artistic</area>
+		<text>Write books or plays</text>
+	</question>
+	<question index="6">
+		<area>Artistic</area>
+		<text>Play a musical instrument</text>
+	</question>
+	<question index="7">
+		<area>Social</area>
+		<text>Teach an individual an exercise routine</text>
+	</question>
+	<question index="8">
+		<area>Social</area>
+		<text>Help people with personal or emotional problems</text>
+	</question>
+	<question index="9">
+		<area>Enterprising</area>
+		<text>Buy and sell stocks and bonds</text>
+	</question>
+	<question index="10">
+		<area>Enterprising</area>
+		<text>Manage a retail store</text>
+	</question>
+	<question index="11">
+		<area>Conventional</area>
+		<text>Develop a spreadsheet using computer software</text>
+	</question>
+	<question index="12">
+		<area>Conventional</area>
+		<text>Proofread records or forms</text>
+	</question>
+	<question index="13">
+		<area>Realistic</area>
+		<text>Repair household appliances</text>
+	</question>
+	<question index="14">
+		<area>Realistic</area>
+		<text>Raise fish in a fish hatchery</text>
+	</question>
+	<question index="15">
+		<area>Investigative</area>
+		<text>Conduct chemical experiments</text>
+	</question>
+	<question index="16">
+		<area>Investigative</area>
+		<text>Study the movement of planets</text>
+	</question>
+	<question index="17">
+		<area>Artistic</area>
+		<text>Compose or arrange music</text>
+	</question>
+	<question index="18">
+		<area>Artistic</area>
+		<text>Draw pictures</text>
+	</question>
+	<question index="19">
+		<area>Social</area>
+		<text>Give career guidance to people</text>
+	</question>
+	<question index="20">
+		<area>Social</area>
+		<text>Perform rehabilitation therapy</text>
+	</question>
+	<question index="21">
+		<area>Enterprising</area>
+		<text>Operate a beauty salon or barber shop</text>
+	</question>
+	<question index="22">
+		<area>Enterprising</area>
+		<text>Manage a department within a large company</text>
+	</question>
+	<question index="23">
+		<area>Conventional</area>
+		<text>Install software across computers on a large network</text>
+	</question>
+	<question index="24">
+		<area>Conventional</area>
+		<text>Operate a calculator</text>
+	</question>
+	<question index="25">
+		<area>Realistic</area>
+		<text>Assemble electronic parts</text>
+	</question>
+	<question index="26">
+		<area>Realistic</area>
+		<text>Drive a truck to deliver packages to offices and homes</text>
+	</question>
+	<question index="27">
+		<area>Investigative</area>
+		<text>Examine blood samples using a microscope</text>
+	</question>
+	<question index="28">
+		<area>Investigative</area>
+		<text>Investigate the cause of a fire</text>
+	</question>
+	<question index="29">
+		<area>Artistic</area>
+		<text>Create special effects for movies</text>
+	</question>
+	<question index="30">
+		<area>Artistic</area>
+		<text>Paint sets for plays</text>
+	</question>
+	<question index="31">
+		<area>Social</area>
+		<text>Do volunteer work at a non-profit organization</text>
+	</question>
+	<question index="32">
+		<area>Social</area>
+		<text>Teach children how to play sports</text>
+	</question>
+	<question index="33">
+		<area>Enterprising</area>
+		<text>Start your own business</text>
+	</question>
+	<question index="34">
+		<area>Enterprising</area>
+		<text>Negotiate business contracts</text>
+	</question>
+	<question index="35">
+		<area>Conventional</area>
+		<text>Keep shipping and receiving records</text>
+	</question>
+	<question index="36">
+		<area>Conventional</area>
+		<text>Calculate the wages of employees</text>
+	</question>
+	<question index="37">
+		<area>Realistic</area>
+		<text>Test the quality of parts before shipment</text>
+	</question>
+	<question index="38">
+		<area>Realistic</area>
+		<text>Repair and install locks</text>
+	</question>
+	<question index="39">
+		<area>Investigative</area>
+		<text>Develop a way to better predict the weather</text>
+	</question>
+	<question index="40">
+		<area>Investigative</area>
+		<text>Work in a biology lab</text>
+	</question>
+	<question index="41">
+		<area>Artistic</area>
+		<text>Write scripts for movies or television shows</text>
+	</question>
+	<question index="42">
+		<area>Artistic</area>
+		<text>Perform jazz or tap dance</text>
+	</question>
+	<question index="43">
+		<area>Social</area>
+		<text>Teach sign language to people who are deaf or hard of hearing</text>
+	</question>
+	<question index="44">
+		<area>Social</area>
+		<text>Help conduct a group therapy session</text>
+	</question>
+	<question index="45">
+		<area>Enterprising</area>
+		<text>Represent a client in a lawsuit</text>
+	</question>
+	<question index="46">
+		<area>Enterprising</area>
+		<text>Market a new line of clothing</text>
+	</question>
+	<question index="47">
+		<area>Conventional</area>
+		<text>Inventory supplies using a hand-held computer</text>
+	</question>
+	<question index="48">
+		<area>Conventional</area>
+		<text>Record rent payments</text>
+	</question>
+	<question index="49">
+		<area>Realistic</area>
+		<text>Set up and operate machines to make products</text>
+	</question>
+	<question index="50">
+		<area>Realistic</area>
+		<text>Put out forest fires</text>
+	</question>
+	<question index="51">
+		<area>Investigative</area>
+		<text>Invent a replacement for sugar</text>
+	</question>
+	<question index="52">
+		<area>Investigative</area>
+		<text>Do laboratory tests to identify diseases</text>
+	</question>
+	<question index="53">
+		<area>Artistic</area>
+		<text>Sing in a band</text>
+	</question>
+	<question index="54">
+		<area>Artistic</area>
+		<text>Edit movies</text>
+	</question>
+	<question index="55">
+		<area>Social</area>
+		<text>Take care of children at a day-care center</text>
+	</question>
+	<question index="56">
+		<area>Social</area>
+		<text>Teach a high-school class</text>
+	</question>
+	<question index="57">
+		<area>Enterprising</area>
+		<text>Sell merchandise at a department store</text>
+	</question>
+	<question index="58">
+		<area>Enterprising</area>
+		<text>Manage a clothing store</text>
+	</question>
+	<question index="59">
+		<area>Conventional</area>
+		<text>Keep inventory records</text>
+	</question>
+	<question index="60">
+		<area>Conventional</area>
+		<text>Stamp, sort, and distribute mail for an organization</text>
+	</question>
+</questions>
