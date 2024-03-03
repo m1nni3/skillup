@@ -1,0 +1,56 @@
+﻿document.addEventListener("DOMContentLoaded", function () {
+    var MaintainenceVersion = 1;
+    var MaintainenceVersionKey = "MaintainenceVersion";
+    var currentMaintainenceVersion = localStorage.getItem(MaintainenceVersionKey);
+    var targetDate = new Date('Jan 29 2024 00:00:00');
+    if ((currentMaintainenceVersion === null || currentMaintainenceVersion != MaintainenceVersion) && (new Date() < targetDate)) {
+        var alertElement = document.createElement("div");
+        alertElement.style = "margin-bottom:10px;background-color: orange;text-align: left;position: relative;top: 0;z-index: 9;padding: 8px 15px 1px;max-width: 100%;font-size: 16px; font-weight:bold; font-family:Verdana, Arial, sans-serif";
+
+        var message = "Please note the CareerOneStop websites will be down for maintenance Saturday and Sunday, January 27-28. ";
+
+        if (document.cookie.indexOf("lang=es") >= 0) {
+            message = "Tenga en cuenta que los sitios web de CareerOneStop estarán inactivos por mantenimiento el sábado y domingo 27 y 28 de enero.";
+        }
+
+        alertElement.innerHTML = '<p style="font-size:16px; display: inline - block;text - align: left;">' + message + ' <button id="close-alert" aria-label="close alert" type="button" style="display: inline - block;margin: 0 0 0 10px;font - weight: bold;border - radius: 0;">X</button></p>';
+
+        var cosHeader = document.getElementById("header").parentNode;
+
+        cosHeader.appendChild(alertElement);
+        var closeAlert = document.getElementById("close-alert");
+
+        var legacyBanner = document.getElementById("banner");
+
+        var bannerHeight;
+        var bannerImage;
+        if (legacyBanner !== null) {
+
+            setTimeout(function () {
+                bannerHeight = legacyBanner.style.height;
+                alertElement.style.paddingBottom = "10px";
+                legacyBanner.style = "height:321px!important";
+                bannerImage = document.getElementById("banner-content");
+                if (bannerImage !== null) {
+                    bannerImage.style.backgroundPosition = "bottom";
+                    bannerImage.style.height = "321px";
+                    bannerImage.style.backgroundSize = "auto";
+                }
+
+            }, 200);
+
+            if (window.innerWidth <= 640) {
+                document.getElementById("header").style.display = "inline-block";
+            }
+        }
+
+        closeAlert.addEventListener('click', function () {
+            localStorage.setItem(MaintainenceVersionKey, MaintainenceVersion);
+            alertElement.remove();
+            legacyBanner.style.height = bannerHeight;
+            bannerImage.style.height = bannerHeight;
+        });
+    }
+
+});
+

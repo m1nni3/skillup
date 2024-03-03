@@ -1,0 +1,13 @@
+/* source-sans-pro-regular - latin_greek_cyrillic-ext_cyrillic_vietnamese_latin-ext_greek-ext */
+@font-face {
+  font-family: 'Source Sans Pro';
+  font-style: normal;
+  font-weight: 400;
+  src: url('./fonts/sourcesanspro/source-sans-pro-v13-latin_greek_cyrillic-ext_cyrillic_vietnamese_latin-ext_greek-ext-regular.eot'); /* IE9 Compat Modes */
+  src: local('Source Sans Pro Regular'), local('SourceSansPro-Regular'),
+       url('./fonts/sourcesanspro/source-sans-pro-v13-latin_greek_cyrillic-ext_cyrillic_vietnamese_latin-ext_greek-ext-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('./fonts/sourcesanspro/source-sans-pro-v13-latin_greek_cyrillic-ext_cyrillic_vietnamese_latin-ext_greek-ext-regular.woff2') format('woff2'), /* Super Modern Browsers */
+       url('./fonts/sourcesanspro/source-sans-pro-v13-latin_greek_cyrillic-ext_cyrillic_vietnamese_latin-ext_greek-ext-regular.woff') format('woff'), /* Modern Browsers */
+       url('./fonts/sourcesanspro/source-sans-pro-v13-latin_greek_cyrillic-ext_cyrillic_vietnamese_latin-ext_greek-ext-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('./fonts/sourcesanspro/source-sans-pro-v13-latin_greek_cyrillic-ext_cyrillic_vietnamese_latin-ext_greek-ext-regular.svg#SourceSansPro') format('svg'); /* Legacy iOS */
+}
